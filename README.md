@@ -28,13 +28,7 @@ The two panels below are not screenshots. A small Python script runs on GitHub A
 
 </div>
 
-Source: [`scripts/build.py`](scripts/build.py) and [`update.yml`](.github/workflows/update.yml). It uses only the Python standard library.
-
-## Shipped for clients
-
-[Qsynergy](https://qsynergy.eu/) · [LZMPD](https://lzmpd-frontend.vercel.app/) · [SkyGenesis](https://skygenesis.vercel.app/) · [New Stage](https://newstage-redesigned.vercel.app/en) · [EXEED VX 2026](https://exeed-vx.vercel.app/) · [Ab Initio](https://ab-initio-xi.vercel.app/)
-
-More, including the bots, the firmware and the blockchain devnet, on the portfolio: **[alexblitz.vercel.app](https://alexblitz.vercel.app/)**
+Portfolio, with the client sites, bots, firmware and the blockchain devnet: **[alexblitz.vercel.app](https://alexblitz.vercel.app/)**
 
 <div align="center">
 
