@@ -423,6 +423,9 @@ def main():
         (OUT / name).write_text(svg, encoding="utf-8")
         print(f"{name}: {len(svg)/1024:.1f} KB")
     print("head", blocks[-1]["hash"], "live" if live else "fallback")
+    import viz
+
+    viz.build_all(OUT)
 
 
 if __name__ == "__main__":
