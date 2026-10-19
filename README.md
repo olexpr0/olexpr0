@@ -52,7 +52,7 @@ This README is an agent. A small Python script runs on GitHub Actions every six 
 
 <div align="center">
 
-<img src="assets/now.svg" alt="Poland time, current project and study list" width="100%" />
+<img src="https://olexpr0.vercel.app/api/now" alt="Live Poland time, current project and study list" width="100%" />
 
 </div>
 
