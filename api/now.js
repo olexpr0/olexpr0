@@ -12,8 +12,9 @@ function warsawNow() {
   const parts = new Intl.DateTimeFormat("en-GB", {
     timeZone: TZ, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false,
   }).formatToParts(new Date());
-  const get = (t) => Number(parts.find((p) => p.type === t).value) % 24;
-  return { h: get("hour"), m: get("minute"), s: get("second") };
+  const get = (t) => Number(parts.find((p) => p.type === t).value);
+  // some runtimes report midnight as 24
+  return { h: get("hour") % 24, m: get("minute"), s: get("second") };
 }
 
 const pad = (n) => String(n).padStart(2, "0");
